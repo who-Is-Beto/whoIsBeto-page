@@ -1,0 +1,38 @@
+nav{
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  margin: 0 8px;
+}
+
+a{
+  text-decoration: none;
+  color: $nav__item;
+
+  &:hover{
+    text-decoration: underline;
+    transition: 300ms;
+  }
+}
+
+#logo{
+  font-family: 'Roboto Mono', monospace;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+#title__nav{
+  font-size: 35px;
+}
+

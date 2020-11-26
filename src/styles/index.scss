@@ -1,9 +1,15 @@
+@import './variables/variables';
+@import './navbar/navbarStyles';
+
+@import './fonts/fonts';
+
 body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: $bg;
   margin: 0;
   padding: 0;
-  height: 300px;
-  background-color: gray;
-  &:hover{
-    background-color: red;
-  }
+}
+
+p{
+  margin: 0;
 }
