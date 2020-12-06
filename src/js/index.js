@@ -1,3 +1,9 @@
 import '../styles/index.scss'
+import Home from '../controllers/home.controllers'
+import { router } from './router/index.routes'
 
-window.addEventListener('hashchange', () => console.log(window.location.hash))
+router(window.location.hash);
+window.addEventListener("hashchange", () => {
+  router(window.location.hash);
+});
+
