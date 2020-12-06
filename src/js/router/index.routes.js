@@ -8,6 +8,10 @@ const router = (route) => {
   console.log(route)
 
   switch (route) {
+
+    case '': {
+      return APP.appendChild(pages.home())
+    }
     case '#/': {
       return APP.appendChild(pages.home())
     }
