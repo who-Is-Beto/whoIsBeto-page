@@ -1,9 +1,7 @@
 import { pages } from '../../controllers/index'
 
 let APP = document.getElementById('root')
-
 const router = (route) => {
-
   APP.innerHTML = ''
   console.log(route)
 
