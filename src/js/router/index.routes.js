@@ -1,7 +1,7 @@
 import { pages } from '../../controllers/index'
 
 let APP = document.getElementById('root')
-const router = (route) => {
+const router = async (route) => {
   APP.innerHTML = ''
   console.log(route)
 
@@ -15,11 +15,11 @@ const router = (route) => {
     }
 
     case '#/about': {
-      return console.log('#/about')
+      return APP.appendChild(pages.about())
     }
 
     case '#/projects': {
-      return APP.appendChild(pages.projects())
+      return APP.appendChild(await pages.projects())
     }
 
     case '#/contact': {

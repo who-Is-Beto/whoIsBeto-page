@@ -1,13 +1,17 @@
 @import './variables/variables';
 @import './home/home';
+@import './projects/projects';
+@import './about/about';
 @import './footer/footer';
 @import './navbar/navbarStyles';
 
 
 @import './fonts/fonts';
 
-*{
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -45,6 +49,7 @@ body{
 html{
   width: 100%;
 }
+
 
 p{
   margin: 0;
