@@ -9,15 +9,21 @@
 }
 
 #projects__list{
-  margin-top: 52px;
   list-style: none;
   padding-left: 0;
   display: grid;
-  grid-template: repeat(2,1fr)/repeat(4, $widthCard);
+  grid-template: repeat(1,1fr)/repeat(6, $widthCard);
   grid-gap: 25px;
   gap: 25px;
   justify-content: center;
-  margin-bottom: 33%;
+}
+
+.projects__container{
+  justify-content: center;
+  height: 72%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 36px;
 }
 
 .projects__presentation{

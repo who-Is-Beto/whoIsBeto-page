@@ -10,6 +10,8 @@ export default () => {
   const projectsList = divElement.querySelector('#projects__list')
   const NProjects = divElement.querySelector('#projects__number')
 
+  const FOOTER = document.querySelector('footer')
+
   NProjects.innerHTML = `${data.projects.length}`
 
   data.projects.map((prj) => {
@@ -26,6 +28,12 @@ export default () => {
     </li>
     `
   })
+
+
+
+  if (data.projects.length > 4) {
+    FOOTER.style.margin = ` calc(3% * ${data.projects.length}%) 0 0 0`
+  }
 
   return divElement
 }
