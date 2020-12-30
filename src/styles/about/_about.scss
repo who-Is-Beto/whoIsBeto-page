@@ -3,17 +3,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
-  width: 100vh;
-  height: 100vh;
   border: 1px solid red;
-}
 
-.image__container{
-  width: 350px;
-}
-
-.image__container img{
-  width: 350px;
+  height: 100%;
+  width: 100%;
 }
 

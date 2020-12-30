@@ -1,100 +1,55 @@
 {
-  "projects": [
+  "projects1": [
     {
+      "id": 1,
       "name": "Brand",
       "description": "A interesting layout of an imaginary sell shop that I made live on my facebook community group",
       "link": "https://who-is-beto.github.io/Pagina-de-ventas/",
       "image": "https://i.imgur.com/L9Z0eiN.png"
     },
     {
+      "id": 2,
       "name": "Vanilla Pokedex",
       "description": "A pokedex made using vanilla JavaScript and SASS, just put the pokemon number and find all!",
       "link": "https://github.com/who-Is-Beto/Pokedex",
       "image": "https://i.imgur.com/GNZ53Rg.png"
     },
     {
+      "id": 3,
       "name": "Rick and Morty react app",
       "description": "My first React aplication to see all rick and morty's characters",
       "link": "https://github.com/who-Is-Beto/rick-and-morty-app",
       "image": "https://i.imgur.com/K7zPLdG.png"
     },
     {
+      "id": 4,
       "name": "My first Single Page Aplication with Vanilla Javascript",
       "description": "My first SPA made with vanilla Javascipt to see the Rick and Morty's characters info",
       "link": "https://github.com/who-Is-Beto/myFirst-SPA",
       "image": "https://i.imgur.com/62eHe6i.png"
     },
     {
-      "name": "Brand",
-      "description": "A interesting layout of an imaginary sell shop that I made live on my facebook community group",
-      "link": "https://who-is-beto.github.io/Pagina-de-ventas/",
-      "image": "https://i.imgur.com/L9Z0eiN.png"
+      "id": 5,
+      "name": "Simon Says!",
+      "description": "It's my first project using HTML, CSS, and JavaScript, it's the clasic game Simon says!",
+      "link": "https://github.com/who-Is-Beto/myFirst-SPA",
+      "image": "https://i.imgur.com/62eHe6i.png"
     },
     {
-      "name": "Vanilla Pokedex",
-      "description": "A pokedex made using vanilla JavaScript and SASS, just put the pokemon number and find all!",
-      "link": "https://github.com/who-Is-Beto/Pokedex",
-      "image": "https://i.imgur.com/GNZ53Rg.png"
-    },
+      "id": 6,
+      "name": "Platzi Badges",
+      "description": "A web app builded using React to generate badges",
+      "link": "https://github.com/who-Is-Beto/myFirst-SPA",
+      "image": "https://i.imgur.com/62eHe6i.png"
+    }
+  ],
+  "projects2": [
     {
+      "id": 7,
       "name": "Rick and Morty react app",
       "description": "My first React aplication to see all rick and morty's characters",
       "link": "https://github.com/who-Is-Beto/rick-and-morty-app",
       "image": "https://i.imgur.com/K7zPLdG.png"
-    },
-    {
-      "name": "My first Single Page Aplication with Vanilla Javascript",
-      "description": "My first SPA made with vanilla Javascipt to see the Rick and Morty's characters info",
-      "link": "https://github.com/who-Is-Beto/myFirst-SPA",
-      "image": "https://i.imgur.com/62eHe6i.png"
-    },
-    {
-      "name": "Brand",
-      "description": "A interesting layout of an imaginary sell shop that I made live on my facebook community group",
-      "link": "https://who-is-beto.github.io/Pagina-de-ventas/",
-      "image": "https://i.imgur.com/L9Z0eiN.png"
-    },
-    {
-      "name": "Vanilla Pokedex",
-      "description": "A pokedex made using vanilla JavaScript and SASS, just put the pokemon number and find all!",
-      "link": "https://github.com/who-Is-Beto/Pokedex",
-      "image": "https://i.imgur.com/GNZ53Rg.png"
-    },
-    {
-      "name": "Rick and Morty react app",
-      "description": "My first React aplication to see all rick and morty's characters",
-      "link": "https://github.com/who-Is-Beto/rick-and-morty-app",
-      "image": "https://i.imgur.com/K7zPLdG.png"
-    },
-    {
-      "name": "My first Single Page Aplication with Vanilla Javascript",
-      "description": "My first SPA made with vanilla Javascipt to see the Rick and Morty's characters info",
-      "link": "https://github.com/who-Is-Beto/myFirst-SPA",
-      "image": "https://i.imgur.com/62eHe6i.png"
-    },
-    {
-      "name": "Brand",
-      "description": "A interesting layout of an imaginary sell shop that I made live on my facebook community group",
-      "link": "https://who-is-beto.github.io/Pagina-de-ventas/",
-      "image": "https://i.imgur.com/L9Z0eiN.png"
-    },
-    {
-      "name": "Vanilla Pokedex",
-      "description": "A pokedex made using vanilla JavaScript and SASS, just put the pokemon number and find all!",
-      "link": "https://github.com/who-Is-Beto/Pokedex",
-      "image": "https://i.imgur.com/GNZ53Rg.png"
-    },
-    {
-      "name": "Rick and Morty react app",
-      "description": "My first React aplication to see all rick and morty's characters",
-      "link": "https://github.com/who-Is-Beto/rick-and-morty-app",
-      "image": "https://i.imgur.com/K7zPLdG.png"
-    },
-    {
-      "name": "My first Single Page Aplication with Vanilla Javascript",
-      "description": "My first SPA made with vanilla Javascipt to see the Rick and Morty's characters info",
-      "link": "https://github.com/who-Is-Beto/myFirst-SPA",
-      "image": "https://i.imgur.com/62eHe6i.png"
     }
   ]
 }

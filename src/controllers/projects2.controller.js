@@ -11,9 +11,14 @@ export default () => {
   const projectsList = divElement.querySelector('#projects__list')
   const NProjects = divElement.querySelector('#projects__number')
 
-  NProjects.innerHTML = `${data.projects1.length}`
+  const loadMore = divElement.querySelector('#loadMore')
+  const loadLess = divElement.querySelector('#loadLess')
 
-  data.projects1.map((prj) => {
+  let proyectos = `${data.projects2}`
+
+  NProjects.innerHTML = `${data.projects2.length}`
+
+  data.projects2.map((prj) => {
     projectsList.innerHTML += `
       <li class = 'project__item' >
       <div class="project__card">

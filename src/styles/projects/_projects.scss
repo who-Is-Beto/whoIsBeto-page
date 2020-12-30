@@ -1,11 +1,11 @@
 #projects{
-  color: $normalText1;
   width: 100%;
   background-image: url('../images/backgrounds/P R O J E C T S.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 600px;
-  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #projects__list{
@@ -16,18 +16,29 @@
   grid-gap: 25px;
   gap: 25px;
   justify-content: center;
+  margin-bottom: 22px;
+}
+
+.flext__project-container{
+  height: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects__container{
   justify-content: center;
-  height: 72%;
   align-items: center;
   display: flex;
-  margin-bottom: 36px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
 }
 
 .projects__presentation{
   padding: 8px 16px;
+  color: $normalText1;
 }
 
 .project__item{
@@ -113,4 +124,9 @@
 .project__card .project__info .project__btn{
   font-size: 18px;
   color: $normalText2;
+}
+
+.projects__buttons{
+  display: flex;
+  justify-content: center;
 }

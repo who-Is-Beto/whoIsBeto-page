@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  //height: calc(100vh - 10%);
 }
 
 h2{
@@ -27,8 +28,7 @@ h2{
   padding-top: 44px;
 }
 
-.buttons a{
-  
+.btn{
   border: 3px solid $btnBorder;
   border-radius: 18px;
   background-color: transparent;
