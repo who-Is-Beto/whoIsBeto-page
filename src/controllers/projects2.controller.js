@@ -12,9 +12,9 @@ export default () => {
   const NProjects = divElement.querySelector('#projects__number')
 
   const loadMore = divElement.querySelector('#loadMore')
-  const loadLess = divElement.querySelector('#loadLess')
 
-  let proyectos = `${data.projects2}`
+
+  loadMore.style.display = 'none'
 
   NProjects.innerHTML = `${data.projects2.length}`
 

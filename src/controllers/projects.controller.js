@@ -11,6 +11,10 @@ export default () => {
   const projectsList = divElement.querySelector('#projects__list')
   const NProjects = divElement.querySelector('#projects__number')
 
+  const loadLess = divElement.querySelector('#loadLess')
+
+  loadLess.style.display = 'none'
+
   NProjects.innerHTML = `${data.projects1.length}`
 
   data.projects1.map((prj) => {
