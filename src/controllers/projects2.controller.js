@@ -21,14 +21,14 @@ export default () => {
   data.projects2.map((prj) => {
     projectsList.innerHTML += `
       <li class = 'project__item' >
-      <div class="project__card">
-      <img src=${prj.image} alt="${prj.name} photo" />
-      <div class="project__info">
-      <h3>${prj.name}</h3>
-      <p>${prj.description}</p>
-      <a class="project__btn" href=${prj.link}>Visit ${prj.name}!</a>
-      </div>
-      </div>
+        <div class="project__card">
+          <img src=${prj.image} alt="${prj.name} photo" />
+          <div class="project__info">
+            <h3>${prj.name}</h3>
+            <p>${prj.description}</p>
+            <a class="project__btn" href=${prj.link}>Visit ${prj.name}!</a>
+          </div>
+        </div>
       </li>
       `
   })

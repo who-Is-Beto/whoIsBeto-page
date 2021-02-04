@@ -1,66 +1,10 @@
-@import './variables/variables';
-@import './home/home';
-@import './projects/projects';
-@import './about/about';
-@import './footer/footer';
+@import './fonts/fonts';
 @import './navbar/navbarStyles';
 
-
-@import './fonts/fonts';
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html{
-  height: 100%;
-  width: 100%;
-}
-
 body{
-  font-family: 'Open Sans', sans-serif;
-  background-color: $bg;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+  font-family: 'open sans ';
+  background-color: #121212;
   color: white;
-}
-
-.background{
-  position: relative;
-  z-index: 0;
-  border: 1px solid red;
-  top: -80px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-
-
-  h1{
-    font-family: 'Roboto Mono', monospace;
-    color: $Background__text2;
-    font-size: 156px;
-    font-weight: 900;
-    letter-spacing: 16px;
-    margin: 0;
-  }
-}
-
-html{
-  width: 100%;
-}
-
-
-p{
-  margin: 0;
-}
-
-#root{
-  display: flex;
-  width: 100%;
-  height: 82%;
+  margin: 0%;
+  padding: 0;
 }

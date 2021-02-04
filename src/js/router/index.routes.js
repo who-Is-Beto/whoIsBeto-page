@@ -1,6 +1,6 @@
 import { pages } from '../../controllers/index'
 
-let APP = document.getElementById('root')
+const APP = document.getElementById('root')
 const router = async (route) => {
   APP.innerHTML = ''
   console.log(route)

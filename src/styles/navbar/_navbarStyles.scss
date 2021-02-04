@@ -1,44 +1,51 @@
-
 header{
-  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(58, 58, 58);
 }
 
 nav{
   display: flex;
-  padding: 15px;
+  width: 100%;
   justify-content: space-between;
+  padding: 0 14px;
   align-items: center;
 }
 
-ul{
-  display: flex;
-  list-style: none;
-}
-
-li{
-  margin: 0 8px;
-  text-align: center;
-}
-
-a{
-  text-decoration: none;
-  color: $nav__item2;
-
-  &:hover{
-    text-decoration: underline;
-    transition: 300ms;
-  }
+#title__nav, .nav__options{
+    font-family: 'Roboto Mono';
+    color: white;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 #logo{
-  font-family: 'Roboto Mono', monospace;
-
-  &:hover{
-    text-decoration: none;
-  }
+  text-decoration: none;
 }
 
 #title__nav{
-  font-size: 35px;
+  font-size: 24px;
+  text-decoration: none;
+
+  &:hover{
+    letter-spacing: 3px;
+  }
 }
 
+
+
+.nav__options:hover{  
+  text-decoration: underline;
+}
+
+#nav__items ul{
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+
+  li{
+    margin: 0 8px;
+  }
+}
