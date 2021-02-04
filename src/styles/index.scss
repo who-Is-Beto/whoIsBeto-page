@@ -1,8 +1,20 @@
 @import './fonts/fonts';
+@import './home/home';
 @import './navbar/navbarStyles';
 
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100vh;
+}
+
 body{
-  font-family: 'open sans ';
+  height: 100%;
+  font-family: 'open sans';
   background-color: #121212;
   color: white;
   margin: 0%;
