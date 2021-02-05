@@ -1,5 +1,6 @@
 @import './fonts/fonts';
 @import './home/home';
+@import './footer/footer';
 @import './navbar/navbarStyles';
 
 *{
@@ -19,4 +20,9 @@ body{
   color: white;
   margin: 0%;
   padding: 0;
+}
+
+#root{
+  width: calc(100% - 35px);
+  height: 100%;
 }
