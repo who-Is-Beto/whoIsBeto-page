@@ -1,6 +1,7 @@
 :root{
   --homeBackgroundColor: rgb(12, 12, 12);
   --contentBorderColor: rgba(168, 168, 168, 0.712);
+  --mainGreen: #00e0ab;
 }
 
 #home{
@@ -14,8 +15,9 @@
 .home__content{
   width: 230px;
   padding: 18px;
+  color: white;
   text-align: center;
-  border: 3px solid var(--contentBorderColor);
+  border: 3px solid var(--mainGreen);
   margin-bottom: 8em;
   border-radius: 12px;
 }

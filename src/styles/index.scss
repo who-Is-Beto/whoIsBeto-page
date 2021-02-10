@@ -1,6 +1,7 @@
 @import './fonts/fonts';
 @import './home/home';
 @import './footer/footer';
+@import './projects/projects';
 @import './navbar/navbarStyles';
 
 *{
@@ -9,9 +10,7 @@
   box-sizing: border-box;
 }
 
-html{
-  height: 100vh;
-}
+
 
 body{
   height: 100%;
@@ -23,6 +22,7 @@ body{
 }
 
 #root{
+  margin-left: 35px;
   width: calc(100% - 35px);
   height: 100%;
 }
