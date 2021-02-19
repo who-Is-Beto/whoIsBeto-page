@@ -10,6 +10,7 @@
   row-gap: 24px;
   justify-content: center;
   padding-top: 28px;
+  grid-auto-columns: 230px;
 }
 
 .project{
@@ -20,14 +21,19 @@
 
 .project__image-container{
   width: 100%;
+  padding: 14px;
 
 
   img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
     border-radius: 14px 14px 0 0;
     vertical-align: top;
   }
+}
+
+#countdown__image{
+  width: 100%;
 }
 
 .project__info{
@@ -57,7 +63,7 @@
   text-decoration: none;
 }
 
-.project__button-container button{
+.project__button-container button, .seemore button{
   width: 180px;
   border: 3px solid black;
   border-radius: 48px;
@@ -83,6 +89,12 @@
   }
 }
 
-.see_project-button{
+.see__project-button{
   background-color: var(--mainGreen);
+}
+
+.seemore{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
