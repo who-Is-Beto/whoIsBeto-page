@@ -1,2 +1,114 @@
+:root{
+  --iconContainerBg: rgb(58, 58, 58);
+  --iconContainerBgHover: rgb(98, 98, 98);
+  --reactColor: aqua;
+  --jsColor: rgb(239, 216, 29);
+  --cssColor: #3194f7;
+  --gitColor: #e84e31;
+  --sassColor: #c76494;
+}
+
+.whoim{
+  padding: 0 32px;
+  display: grid;
+  row-gap: 12px;
+  position: relative;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  ),url('https://live.staticflickr.com/65535/50960918981_3a3b47cdfa_h.jpg') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.whoim__title{
+  color: var(--mainGreen);
+  padding-left: 16px;
+}
+
+.title1{
+  position: relative;
+  left: -16px;
+  margin-left: -16px;
+}
+
+.visit__it{
+  color: var(--mainGreen);
+}
+
+.skills__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  margin: 16px 0;
+}
 
 
+.whoim__skill-containers{
+  color: white;
+  background-color: var(--iconContainerBg);
+  border-radius: 8px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding-top: 17.5px;
+  transition-duration: 0.5s;
+  
+  &:hover{
+    background-color: var(--iconContainerBgHover);
+
+    .reactjs__icon{
+      transform: rotate(90deg);
+      color: var(--reactColor);
+    }
+    
+    .js__icon{
+      transform: rotate(360deg);
+      color: var(--jsColor);
+    }
+    
+    .css__icon{
+      transform: rotate(360deg);
+      color: var(--cssColor);
+    }
+    
+    .git__icon{
+      transform: rotate(-45deg);
+      color: var(--gitColor);
+    }
+    
+    .sass__icon{
+      transform: rotate(360deg);
+      color: var(--sassColor)
+    }
+    
+    .more__icon{
+      transform: rotate(180deg);
+      color: var(--mainGreen);
+    }
+
+  }
+}
+
+.whoim__skill-icon{
+  transition-duration: 0.5s;
+  font-size: 30px;
+}
+
+.soft__skills{
+  padding: 0 32px;
+  margin-bottom: 18px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.soft__skills-item{
+  list-style: none;
+}

@@ -1,5 +1,6 @@
 @import './fonts/fonts';
 @import './home/home';
+@import './about/about';
 @import './footer/footer';
 @import './projects/projects';
 @import './navbar/navbarStyles';
@@ -9,8 +10,6 @@
   padding: 0%;
   box-sizing: border-box;
 }
-
-
 
 body{
   height: 100%;
@@ -25,6 +24,8 @@ body{
   margin-left: 35px;
   width: calc(100% - 35px);
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .page__title{

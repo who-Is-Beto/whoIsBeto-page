@@ -1,5 +1,6 @@
 :root{
   --footerBackground: rgb(29, 29, 29);
+  --GitHubColor: #28b162;
 }
 
 footer{
@@ -50,7 +51,7 @@ footer{
 }
 
 .github:hover{
-  color: #28b162;
+  color: var(--GitHubColor);
 }
 
 .footer__message{
