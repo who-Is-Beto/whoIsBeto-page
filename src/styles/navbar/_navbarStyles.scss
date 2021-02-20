@@ -28,7 +28,7 @@ nav{
   transition-duration: 0.5s;
 
 }
-.nav__button:hover{
+.nav__button:hover, .nav__item-active{
   transform: rotateX(180deg) rotateY(180deg);
 }
 

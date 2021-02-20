@@ -8,7 +8,11 @@ const router = async (route) => {
   removeStyles()
   switch (route) {
 
-    case '' || '#/': {
+    case '': {
+      HOME.classList.add('nav__item-active')
+      return APP.appendChild(pages.home())
+    }
+    case '#/': {
       HOME.classList.add('nav__item-active')
       return APP.appendChild(pages.home())
     }
