@@ -37,13 +37,13 @@
   color: var(--mainGreen);
 }
 
-.skills__container{
+.skills__container, .contact__container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
   justify-content: center;
   gap: 8px;
   align-items: center;
   margin: 16px 0;
+  grid-template-columns: repeat(auto-fit, 100px);
 }
 
 
@@ -59,7 +59,10 @@
   text-decoration: none;
   padding-top: 17.5px;
   transition-duration: 0.5s;
-  
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
   &:hover{
     background-color: var(--iconContainerBgHover);
 
@@ -91,6 +94,16 @@
     .more__icon{
       transform: rotate(180deg);
       color: var(--mainGreen);
+    }
+    
+    .email{
+      transform: rotate(180deg);
+      color: red;
+    }
+    
+    .instagram{
+      transform: rotate(180deg);
+      color: var(--instagram);
     }
 
   }

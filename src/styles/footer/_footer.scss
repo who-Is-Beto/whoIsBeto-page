@@ -1,6 +1,7 @@
 :root{
   --footerBackground: rgb(29, 29, 29);
   --GitHubColor: #28b162;
+  --instagram: #c324bea1;
 }
 
 footer{
@@ -43,7 +44,7 @@ footer{
 }
 
 .instagram:hover{
-  color: #c324bea1;
+  color: var(--instagram);
 }
 
 .facebook:hover{
