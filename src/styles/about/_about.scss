@@ -37,7 +37,7 @@
   color: var(--mainGreen);
 }
 
-.skills__container, .contact__container{
+.skills__container{
   display: grid;
   justify-content: center;
   gap: 8px;
@@ -95,17 +95,6 @@
       transform: rotate(180deg);
       color: var(--mainGreen);
     }
-    
-    .email{
-      transform: rotate(180deg);
-      color: red;
-    }
-    
-    .instagram{
-      transform: rotate(180deg);
-      color: var(--instagram);
-    }
-
   }
 }
 
@@ -129,5 +118,6 @@
 .cv__buttons{
   display: grid;
   row-gap: 4px;
+  justify-content: center;
   margin-bottom: 14px;
 }

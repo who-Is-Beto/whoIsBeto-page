@@ -2,6 +2,7 @@
   --footerBackground: rgb(29, 29, 29);
   --GitHubColor: #28b162;
   --instagram: #c324bea1;
+  --linkedIn: #0077b0;
 }
 
 footer{
@@ -53,6 +54,10 @@ footer{
 
 .github:hover{
   color: var(--GitHubColor);
+}
+
+.in:hover{
+  color: var(--linkedIn);
 }
 
 .footer__message{

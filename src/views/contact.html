@@ -1,32 +1,26 @@
 <h1 class="page__title">Contact</h1>
 
-<div class="contact__container">
-  <form action="mailto:whoisbeto@gmail.com">
-    <button class="whoim__skill-containers" type="submit">
-      <div class="whoim__skill-icon email">
-        <i class="far fa-envelope"></i>
-      </div>
-      <p>Send email</p>
-    </button>
-  </form>
 
+<section class="contact">
+  <h2 class="whoim__title talk__to-me">Talk to me</h2>
+  <div class="u-wrapper">
+    <div class="contact-content">
 
-  <a class="whoim__skill-containers" href="" target="_blank">
-    <div>
-      <div class="whoim__skill-icon more__icon">
-        <i class="fas fa-plus"></i>
-      </div>
-      <p>And more</p>
+      <form id="form" action="" class="form">
+        <label for="name">Full name <span>*</span></label>
+        <input name="name" required type="text" id="name" placeholder="Juan">
+        <label for="email">email <span>*</span></label>
+        <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+        <div class="cv__buttons">
+          <button type="submit" class="see__project-button seemore btn__about send__email">
+            <i class="far fa-paper-plane"></i>
+            Send Message</button>
+        </div>
+      </form>
+      <a href="mailto:me@leonidasesteban.com" id="trucazo">jojojoj</a>
     </div>
-  </a>
-
-  <a class="whoim__skill-containers" href="" target="_blank">
-    <div>
-      <div class="whoim__skill-icon instagram">
-        <i class="fab fa-instagram"></i>
-      </div>
-      <p>Dm me</p>
-    </div>
-  </a>
-
+  </div>
+</section>
 </div>
