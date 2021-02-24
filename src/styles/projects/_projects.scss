@@ -11,6 +11,7 @@
   justify-content: center;
   padding-top: 28px;
   grid-auto-columns: 230px;
+  margin-top: 14px;
 }
 
 .project{
@@ -22,6 +23,9 @@
 .project__image-container{
   width: 100%;
   padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
   img{
@@ -34,6 +38,10 @@
 
 #countdown__image{
   width: 100%;
+}
+
+.countdown__image-container{
+  order: 2;
 }
 
 .project__info{
@@ -97,4 +105,69 @@
 .seemore{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.seemore__title{
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+
+    img{
+      width: 10em;
+    }
+  }
+
+  #countdown__image{
+    width: 10em;
+  }
+
+  .project__info{
+    padding: 14px 34px;
+  }
+
+  .project__image-container{
+    padding: 0;
+  }
+  
+  #todo{
+    width: 20em;
+  }
+
+  .project__button-container{
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .projects{
+    padding: 0 28px;
+    justify-content: flex-start;
+    max-width: 1405px;
+  }
+
+  .project__button-container{
+    display: flex;
+    margin-top: 18px;
+  }
+
+  .project{
+    max-width: 740px;
+    height: 342px;
+  }
+  .project:nth-child(2){
+    margin-left: auto;
+  }
 }

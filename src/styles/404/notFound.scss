@@ -1,0 +1,23 @@
+.notFound{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.notfound__content{
+  padding: 0 12px;
+  text-align: center;
+}
+
+.go__home{
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 1024px){
+  .go__home{
+    margin-top: 18px;
+  }
+}

@@ -33,7 +33,7 @@ const router = async (route) => {
     }
 
     default: {
-      return console.log('ERROR 404 NOT FOUND')
+      return APP.appendChild(pages.notFound())
     }
 
   }

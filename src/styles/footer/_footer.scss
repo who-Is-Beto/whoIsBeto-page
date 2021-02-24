@@ -17,7 +17,6 @@ footer{
 
 .footer__wrapper{
   height: 100%;
-  width: 80%;
   text-align: center;
   margin: 0 auto;
 }
@@ -26,6 +25,8 @@ footer{
   display: flex;
   justify-content: space-around;
   margin-bottom: 12px;
+  max-width: 500px;
+  margin: 0 auto 18px;
 
   a{
     color: white;
@@ -35,7 +36,7 @@ footer{
     height: 35px;
 
     &:hover{
-      transform: scale(1.8) rotateX(180deg) rotateY(180deg);
+      transform: scale(1.8) rotate(180deg);
     }
   }
 }
@@ -62,6 +63,11 @@ footer{
 
 .footer__message{
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 18px;
 
   p{
     font-size: 14px;
