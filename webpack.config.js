@@ -29,7 +29,7 @@ module.exports = {
         loader: 'html-loader',
       },
       {
-        test: /\.(png|svg|jpe?g|gif)$/,
+        test: /\.(png|svg|jpe?g|gif|ico)$/,
         include: /images/,
         use: [
           {
