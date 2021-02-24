@@ -8,10 +8,14 @@
   --sassColor: #c76494;
 }
 
-.whoim{
+.whoim, .more__aboutme{
   padding: 0 32px;
   display: grid;
   row-gap: 12px;
+  padding-bottom: 18px;
+}
+
+.whoim{
   position: relative;
   background: linear-gradient(
     rgba(0, 0, 0, 0.55),
@@ -20,6 +24,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .whoim__title{
@@ -105,7 +110,7 @@
 
 .soft__skills{
   padding: 0 32px;
-  margin-bottom: 18px;
+  margin: 18px 0;
   width: 100%;
   display: grid;
   align-items: center;
@@ -115,9 +120,49 @@
   list-style: none;
 }
 
+.instruments{
+  padding: 0;
+}
+
 .cv__buttons{
   display: grid;
   row-gap: 4px;
   justify-content: center;
-  margin-bottom: 14px;
+  margin: 14px 0;
+}
+
+@media screen and (min-width: 425px){
+  .cv__buttons{
+    display: flex;
+  }
+  
+  .soft__skills {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    grid-template-columns: repeat(3, 100px);
+  }
+
+  .btn__about{
+    margin: 0 8px;
+  }
+
+  .soft__skills-title{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .cv__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8em;
+  }
+  
+  .soft__skills{
+    grid-template-columns: repeat(3, 200px);
+  }
 }
