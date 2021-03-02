@@ -1,14 +1,19 @@
 import '../styles/index.scss'
 import { router } from './router/index.routes'
 
+window.onload = () => {
+  const loader = document.getElementById('loader')
+  loader.classList.add('none')
+
+  const body = document.querySelector('body')
+  body.classList.remove('hidden')
+}
 const init = () => {
-  console.log('load')
   router(window.location.hash);
 
   window.addEventListener("hashchange", () => {
     router(window.location.hash);
   });
 };
-console.log('loading...')
 window.addEventListener("load", init());
 
