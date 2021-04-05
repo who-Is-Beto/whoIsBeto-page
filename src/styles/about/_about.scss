@@ -8,6 +8,10 @@
   --sassColor: #c76494;
 }
 
+#about, #projects{
+  max-width: 1024px;
+}
+
 .whoim, .more__aboutme{
   padding: 0 32px;
   display: grid;
@@ -24,7 +28,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  border-radius: 12px;
 }
 
 .whoim__title{
