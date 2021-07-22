@@ -1,9 +1,9 @@
-#contact{
+#contact {
   width: 100%;
   height: 100vh;
 }
 
-.contact__content{
+.contact__content {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -11,17 +11,17 @@
   height: 100%;
 }
 
-.form__container{
-  padding: 0 16px; 
+.form__container {
+  padding: 0 16px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact__talk{
+.contact__talk {
   color: var(--mainGreen);
 
-  span{
+  span {
     font-size: 18px;
   }
 }
@@ -34,21 +34,22 @@
 .form label {
   display: block;
   margin-block-start: 1em;
-  margin-block-end: .5em;
-  padding-inline-start: .5em;
+  margin-block-end: 0.5em;
+  padding-inline-start: 0.5em;
 }
 
 .form label span {
-  color: #DA1414;
+  color: #da1414;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
   box-sizing: border-box;
   width: 100%;
   font-size: 1rem;
-  padding: .8em;
-  border-radius: .5em;
-  border: 1px solid #858C94;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  border: 1px solid #858c94;
 }
 .form textarea {
   margin-block-end: 0.5em;
@@ -56,13 +57,13 @@
 }
 
 input::-webkit-input-placeholder {
-  color: #0F0A0A88;
+  color: #0f0a0a88;
 }
-
 
 .contact {
   margin-block-end: 5em;
   padding-top: 10vh;
+  max-height: calc(100vh - var(--maxFooterHeight));
 }
 
 .footer {
@@ -79,12 +80,13 @@ input::-webkit-input-placeholder {
   padding: 0 1em;
 }
 
-@media screen and (min-width: 768px){
-  .talk__to-me{
+@media screen and (min-width: 768px) {
+  .talk__to-me {
     text-align: center;
   }
 
-  .form button, .seemore__a {
+  .form button,
+  .seemore__a {
     transform: scale(1.4);
   }
 }

@@ -1,17 +1,18 @@
-const path = require('path')
-const HTMLWebpackPlugin = require('html-webpack-plugin')
+const path = require("path");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: "./src/js/index.js",
+  mode: "production",
   output: {
-    path: __dirname + '/dist',
-    filename: 'bundle.js',
+    path: __dirname + "/dist",
+    filename: "bundle.js",
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader']
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.s[ac]ss$/i,
@@ -26,32 +27,32 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader',
+        loader: "html-loader",
       },
       {
         test: /\.(png|svg|jpe?g|gif|ico)$/,
         include: /images/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: '[name].[ext]',
-              outputPath: 'images/',
-              publicPath: 'images/'
-            }
-          }
-        ]
+              name: "[name].[ext]",
+              outputPath: "images/",
+              publicPath: "images/",
+            },
+          },
+        ],
       },
     ],
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: './src/index.html',
-    })
+      template: "./src/index.html",
+    }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 9000
-  }
-}
+    port: 9000,
+  },
+};

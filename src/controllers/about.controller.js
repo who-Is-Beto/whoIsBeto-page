@@ -1,11 +1,13 @@
-import views from '../views/about.html'
+import views from "../views/about.html";
 
 export default () => {
+  const divElement = document.createElement("main");
+  divElement.setAttribute("id", "about");
 
-  const divElement = document.createElement('main')
-  divElement.setAttribute("id", "about")
+  divElement.innerHTML = views;
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
 
-  divElement.innerHTML = views
-
-  return divElement
-}
+  return divElement;
+};
