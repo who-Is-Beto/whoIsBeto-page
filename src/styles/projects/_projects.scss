@@ -1,9 +1,9 @@
-:root{
+:root {
   --homeBackgroundColor: rgb(12, 12, 12);
   --mainGreen: #00e0ab;
 }
 
-.projects{
+.projects {
   text-align: center;
   margin-bottom: 14px;
   display: grid;
@@ -14,21 +14,20 @@
   margin-top: 14px;
 }
 
-.project{
+.project {
   border-radius: 14px;
-  box-shadow: 0 0 7px 2px rgba(255, 255, 255, .08%);
+  box-shadow: 0 0 7px 2px rgba(255, 255, 255, 0.08%);
   width: 230px;
 }
 
-.project__image-container{
+.project__image-container {
   width: 100%;
   padding: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
 
-
-  img{
+  img {
     width: 80%;
     object-fit: cover;
     border-radius: 14px 14px 0 0;
@@ -36,29 +35,28 @@
   }
 }
 
-#countdown__image{
+#countdown__image {
   width: 100%;
 }
 
-.countdown__image-container{
+.countdown__image-container {
   order: 2;
 }
 
-.project__info{
+.project__info {
   width: 70%;
   text-align: start;
   padding: 14px 0;
   font-weight: 300;
   margin: 0 auto;
-  
-  
-  h3{
+
+  h3 {
     font-weight: 400;
     color: var(--mainGreen);
   }
 }
 
-.project__button-container{
+.project__button-container {
   display: grid;
   row-gap: 8px;
   justify-content: space-around;
@@ -66,13 +64,15 @@
   padding-bottom: 14px;
 }
 
-.project__a-button{
+.project__a-button {
   color: black;
   width: 180px;
   text-decoration: none;
 }
 
-.project__button-container button, .seemore button, .btn__about{
+.project__button-container button,
+.seemore button,
+.btn__about {
   width: 180px;
   border: 3px solid black;
   border-radius: 48px;
@@ -87,87 +87,91 @@
   outline: none;
   font-size: 12px;
   transition-duration: 0.5s;
-  
-  svg:not(:root).svg-inline--fa{
+
+  svg:not(:root).svg-inline--fa {
     font-size: 18px;
   }
 
-  &:hover{
+  &:hover {
     letter-spacing: 1px;
     box-shadow: 0px 4px 15px 1px #555;
   }
 }
 
-.see__project-button{
+.see__project-button {
   background-color: var(--mainGreen);
 }
 
-.seemore{
+.seemore {
   display: flex;
   justify-content: space-around;
   margin-bottom: 35px;
 }
 
-.seemore__title{
-  margin: 30px 0 12px;
+.seemore__title {
+  margin: 30px 0 28px;
   text-align: center;
 }
 
-@media screen and (min-width: 768px){
-  .projects{
+.project__image-container .tinkin {
+  width: 22em;
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .project{
+  .project {
     width: 80%;
     display: flex;
     align-items: center;
     padding: 12px 8px;
 
-    img{
+    img {
       width: 10em;
     }
   }
 
-  #countdown__image{
-    width: 10em;
+  #countdown__image {
+    width: 12em;
   }
 
-  .project__info{
+  .project__info {
     padding: 14px 34px;
   }
 
-  .project__image-container{
+  .project__image-container {
     padding: 0;
   }
-  
-  #todo{
+
+  #todo {
     width: 20em;
   }
 
-  .project__button-container{
+  .project__button-container {
     margin-top: 14px;
   }
 }
 
-@media screen and (min-width: 1024px){
-  .projects{
+@media screen and (min-width: 1024px) {
+  .projects {
     padding: 0 28px;
     justify-content: flex-start;
     max-width: 1405px;
   }
 
-  .project__button-container{
+  .project__button-container {
     display: flex;
     margin-top: 18px;
   }
 
-  .project{
+  .project {
     max-width: 740px;
     height: 342px;
   }
-  .project:nth-child(2){
+  .project:nth-child(2) {
     margin-left: auto;
   }
 }
