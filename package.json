@@ -1,6 +1,6 @@
 {
   "name": "who-is-beto",
-  "version": "1.4.0",
+  "version": "1.5.2",
   "description": "",
   "main": "./src/index.js",
   "dependencies": {
